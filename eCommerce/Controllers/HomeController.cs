@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace eCommerce.Controllers
 {
-    [Authorize]
+    [RequireHttps]    
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -16,7 +16,7 @@ namespace eCommerce.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "My eCommerce site."; 
 
             return View();
         }

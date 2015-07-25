@@ -58,11 +58,11 @@ namespace eCommerce
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "661416542093-2shvru7voagp5ieegfulishf72dlkhkf.apps.googleusercontent.com",
+                ClientSecret = "WDutqbdJU_rMWKwc7_lUsS9x"
+            });
         }
     }
 }
