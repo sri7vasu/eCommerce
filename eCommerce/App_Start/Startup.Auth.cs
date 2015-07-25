@@ -54,9 +54,9 @@ namespace eCommerce
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "424674324405003",
+               appSecret: "9c9a513ef6532a74c55b23ba7f1a507a");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
